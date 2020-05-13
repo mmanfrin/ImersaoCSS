@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("../images/cool_bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: "Poppins", Arial, sans-serif;
+    color: whitesmoke;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: slategrey;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    text-shadow: none;
+  }
+  
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+
+  /* Aula 2 */
+
+body {
+  text-shadow: 0px 0px 1px #000;
+}
+
+.site-title {
+  text-transform: uppercase;
+  text-shadow: 0px 0px 2px #000;
+}
+
+.site-subtitle {
+  text-shadow: 1px 0px 1px #000;
+}
+
+  header {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    position: fixed;
+    width: 100vw;
+    top: 3px;
+  }
+
+  .menu a {
+  display: block;
+  padding: 10px 20px;
+  }
+
+body {
+  font-size: 10px;
+}
+  @media (min-width: 400px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+.site-titles {
+    position: sticky;
+    top: 5rem;
+}
+  
+.portfolio {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.portfolio h2 {
+    margin-bottom: 2rem;
+}
+
+.portfolio-itens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img-portfolio {
+    height: 180px;
+    width: 180px;
+    border-radius: 2px;
+    border: 2px #f2f2f2;
+}
+
+.img-portfolio:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media (max-width: 820px) {
+    .portfolio h2 {
+        text-align: center;
+    }
+    figure {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.figcaption {
+  color: whitesmoke;
+}
+
+footer {
+  align-content: center;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+}
